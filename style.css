@@ -18,7 +18,8 @@ body {
 main {
   background: #1e1c2a;
   height: 100vh;
-  padding: 20px;
+  padding: 0 20px;
+  overflow: auto;
 }
 .profil-img {
   display: flex;
@@ -29,7 +30,8 @@ main {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #feeee7;
+  border: 3px solid #fff;
+  margin-top: 20px;
 }
 .profil-name {
   display: flex;
@@ -43,6 +45,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 .box-link a {
   text-align: center;
@@ -52,7 +55,7 @@ main {
   width: 90%;
   margin: 10px 0;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 .box-link a:hover {
@@ -60,7 +63,7 @@ main {
 }
 .box-link i {
   background: #1e1c2a;
-  color: #feeee7;
+  color: #fff;
   padding: 5px;
   padding-left: 4px;
   border-radius: 5px;
@@ -76,4 +79,7 @@ main {
   position: relative;
   top: 5px;
   margin-right: 5px;
+}
+.box-link .art {
+  background: #fff;
 }
