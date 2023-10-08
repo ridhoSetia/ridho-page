@@ -16,7 +16,7 @@ body {
   transform: translate(-50%, 0);
 }
 main {
-  background: #1e1c2a;
+  background: #0e1525;
   height: 100vh;
   padding: 0 20px;
   overflow: auto;
@@ -49,7 +49,7 @@ main {
 }
 .box-link a {
   text-align: center;
-  background: #f45050;
+  background: #0053a6;
   padding: 10px;
   border-radius: 5px;
   width: 90%;
@@ -57,12 +57,13 @@ main {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
+  border: 2px solid #fff;
 }
 .box-link a:hover {
-  background: #f87878;
+  background: #0079f2;
 }
 .box-link i {
-  background: #1e1c2a;
+  background: #0e1525;
   color: #fff;
   padding: 5px;
   padding-left: 4px;
@@ -73,7 +74,7 @@ main {
   margin-right: 5px;
 }
 .box-link img {
-  background: #1e1c2a;
+  background: #0e1525;
   width: 25px;
   border-radius: 5px;
   position: relative;
