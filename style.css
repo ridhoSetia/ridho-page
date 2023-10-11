@@ -25,7 +25,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 .profil-img img {
   width: 150px;
@@ -46,7 +45,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 .box-link a {
   text-align: center;
@@ -86,5 +85,5 @@ main {
   background: #fff;
 }
 .box-link .convt {
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
